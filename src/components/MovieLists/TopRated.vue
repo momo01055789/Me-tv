@@ -202,7 +202,7 @@
         .items-container{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            padding: 15px;
+            padding: 10px;
             .item{
                 a{
                     grid-template-columns: 120px;

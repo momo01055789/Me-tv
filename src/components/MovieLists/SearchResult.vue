@@ -2,9 +2,9 @@
     <div class="container">
         <nav>
             <router-link class="home" to="/">ME-tv</router-link>
-            <div class="search-bar">
-                <input type="text" v-model="search" @keypress.enter="FetchSearch" placeholder="What's on yout mind?">
-            </div>
+            <form class="search-bar" @submit.prevent="FetchSearch">
+                <input type="text" v-model="search" placeholder="What's on yout mind?">
+            </form>
         </nav>
         <div class="items-container" v-if="result">
             <div class="item" >

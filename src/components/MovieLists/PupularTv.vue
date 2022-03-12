@@ -155,7 +155,7 @@
         .item-container{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            padding: 13px;
+            padding: 10px;
             .item{
                 a{
                     grid-template-columns: 120px;

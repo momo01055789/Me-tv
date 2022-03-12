@@ -3,7 +3,7 @@
         <div class="container">
                 <div class="logo">
                     <a href="/">
-                        <img src="https://cdn-icons.flaticon.com/png/128/745/premium/745574.png?token=exp=1646933703~hmac=c80ff050ea45c2db3c9ff39af930085e" alt="tv">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2502/2502125.png" alt="tv">
                         <h1>MEtv</h1>
                     </a>
                 </div>
@@ -46,7 +46,7 @@
             padding: 25px;
             text-decoration: none;
             color: #fff;
-            img{width: 55px;}
+            img{width: 55px;background: transparent;}
             h1{font-size: 4ch;}
             }
         }

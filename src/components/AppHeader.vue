@@ -24,16 +24,14 @@
                     <div class="Bbar"></div>
                 </div>
             </nav>
-            <h1></h1>
-            <input class="search" type="text" v-model="query" @keypress.enter="Query" placeholder="Enter Keywords....">
+            <form action="" @submit.prevent="Query">
+                <input class="search" type="text" v-model="query" placeholder="Enter Keywords....">
+            </form>
         </header>
     </div>
 </template>
 
 <script>
-document.addEventListener('onload',function(){
-    
-})
 
     export default {
         data() {
@@ -185,7 +183,13 @@ header{
             .Bbar::after{transform: translateY(-10px);}
         }
     }
-    .search{
+    form{
+        width: 100%;
+        position: absolute;
+        top: 90%;
+        display: flex;
+        justify-content: center;
+        .search{
         width:60%;
         outline: none;
         border: none;
@@ -194,9 +198,8 @@ header{
         color: #666;
         padding:14px 15px;
         font-weight: 600;
-        position: absolute;
-        top: 90%;
         box-shadow: 0px 5px 15px #999,0px -5px 15px #999;
+        }
     }
 }
 
@@ -211,10 +214,11 @@ header{
             ul{display: none;}
             .Bmenu{display: flex;}
         }
-        h2{font-size:3.5ch}
-        .search{
+        form{
+            .search{
             width: 85%;
             padding: 10px 15px;
+            }
         }
     }
 }
@@ -224,24 +228,21 @@ header{
             ul{display: none;}
             
         }
-        h2{font-size:3ch}
-        .search{
+        form{
+            .search{
             width: 85%;
             padding: 10px 15px;
-            font-size: 2ch;
+            }
         }
     }
 }
 @media screen and (max-width: 550px) {
     header{
-        nav{
-            ul{display: none;}
-            
-        }
-        h2{font-size:2.5ch;}
-        .search{
+        form{
+            .search{
             width: 85%;
-            padding: 10px 15px;
+            padding: 8px 15px;
+            }
         }
     }
 }
