@@ -281,11 +281,12 @@
         .header{
             width: auto;
             .content{
-                .name{font-size: 2ch;}
+                .name{font-size: 2.5ch;}
                 .poster{width: 60%;}
                 p{width: 85%;margin: 0 auto;font-size: 1.6ch;word-spacing: 3px;}
                 .genres{
-                    margin: 0 auto;display: flex;font-size: 2ch;
+                    margin: 0 auto;display: flex;font-size: 2ch;flex-direction: column;
+                    h2{margin-bottom: 15px;}
                 }
                 span{margin: 20px auto;}
                 .creater{flex-direction: column;font-size: 2ch;}
@@ -311,7 +312,7 @@
         .header{
             width: auto;
             .content{
-                .name{font-size: 1.5ch;}
+                .name{font-size: 2.3ch;}
                 .poster{width: 60%;}
                 p{width: 95%;margin: 0 auto;font-size: 1.3ch;word-spacing: 3px;}
                 .genres{
@@ -319,7 +320,7 @@
                     h2{margin-bottom: 15px;}
                     ul{flex-direction: column;}
                 }
-                span{margin: 20px auto;width: 55%;}
+                span{margin: 20px auto;width: 100%;}
                 .production{
                     margin: 0 auto;font-size: 1.5ch;padding: 15px;flex-direction: column;
                     ul{grid-template-columns: repeat(1, 1fr);}

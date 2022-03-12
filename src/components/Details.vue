@@ -248,7 +248,7 @@
         .header{
             width: auto;
             .content{
-                .name{font-size: 2ch;}
+                .name{font-size: 2.5ch;}
                 .poster{width: 60%;}
                 p{width: 85%;margin: 0 auto;font-size: 1.6ch;word-spacing: 3px;}
                 .genres{
@@ -284,10 +284,12 @@
         .header{
             width: auto;
             .content{
-                .name{font-size: 1.5ch;}
+                .name{font-size: 2.3ch;}
                 .poster{width: 60%;}
                 p{width: 95%;margin: 0 auto;font-size: 1.2ch;word-spacing: 3px;}
-                .genres{}
+                .genres{
+                    ul{font-size: 1.5ch;}
+                }
                 span{margin: 20px auto;}
                 .production{
                     margin: 0 auto;font-size: 1.5ch;padding: 15px;flex-direction: column;
